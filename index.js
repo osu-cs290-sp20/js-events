@@ -43,3 +43,7 @@ link.addEventListener('click', function (event) {
  * #box-container .box.highlighted
  */
 var highlightedBox = document.querySelector("#box-container .box.highlighted");
+
+setTimeout(function () {
+  alert("5 seconds has elapsed");
+}, 5000);
